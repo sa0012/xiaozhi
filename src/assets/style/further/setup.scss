@@ -1,0 +1,27 @@
+@import "../px2rem.scss";
+#setup{
+  background: #fff;
+  .mint-header{
+    padding:0 15px;
+    color: #000;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+  }
+  .content{
+    .list{
+      display: flex;
+      padding: 15px;
+      height: 30px;
+      line-height: 30px;
+      border-bottom: 1px solid #ddd;
+      div{
+        flex: 1;
+        font-size: 16px;
+      }
+      div:last-child{
+        text-align: right;
+      }
+    }
+  }
+}

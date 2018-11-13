@@ -1,0 +1,76 @@
+#nav {
+  .navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    height: 45px;
+    line-height: 45px;
+    width: 100%;
+    border: 1px solid #FAFAFA;
+    display: flex;
+    padding: 10px 0;
+    .home,
+    .equip,
+    .scene,
+    .further {
+      flex: 1;
+      height: 45px;
+      text-align: center;
+    }
+    .voice {
+      text-align: center;
+      flex: 0 0 70px;
+      position: relative;
+    }
+    .home-icon {
+      background: url('../assets/images/home/navbar.png') -10px -157px no-repeat;
+    }
+    .scene-icon {
+      background: url('../assets/images/home/navbar.png') -10px -126px no-repeat;
+    }
+    .voice-icon {
+      position: absolute;
+      top: -20px;
+      left: 13px;
+      width: 44px;
+      height: 44px;
+      z-index: 333;
+      background: url('../assets/images/home/navbar.png') -10px -10px no-repeat;
+    }
+    .half-radius {
+      position: absolute;
+      top: -30px;
+      left: 0;
+      width: 70px;
+      height: 70px;
+      background: #fff;
+      border: 1px solid #FAFAFA;
+      box-sizing: border-box;
+      z-index: 222;
+      border-radius: 1000px;
+    }
+    .equip-icon {
+      background: url('../assets/images/home/navbar.png') -10px -95px no-repeat;
+    }
+    .further-icon {
+      background: url('../assets/images/home/navbar.png') -10px -64px no-repeat;
+    }
+    .item-icon {
+      width: 21px;
+      height: 21px;
+      margin: 0 auto; // background-size: cover;
+    }
+    .item-txt {
+      padding-bottom: 10px;
+    }
+    .voice-txt {
+      position: absolute;
+      bottom: -20px;
+      left: 0;
+      width: 70px;
+      text-align: center;
+      z-index: 444;
+    }
+  }
+}

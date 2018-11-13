@@ -1,0 +1,36 @@
+#masterSecond{
+    .container{
+        position: absolute;
+        top: 40px;
+        bottom: 70px; 
+        left: 0;
+        right: 0;
+        overflow: auto;
+        background: #fff;
+        text-align: center;
+       p{
+            margin-top: 4rem;
+            font-size: 1.5rem;
+            line-height: 2rem;
+            color: #000;
+        }
+        .type {
+            display: flex;
+            margin-top: 2rem;
+            .left-side,.right-side{
+                flex: 1;
+                img{
+                    display: block;
+                    width: 70%;
+                    margin: 0 auto;
+                }
+                span{
+                    padding: 0 3rem;
+                    line-height: 3rem;
+                    font-size: 1.2rem;
+                    color: #999;
+                }
+            }
+        }
+    }
+}

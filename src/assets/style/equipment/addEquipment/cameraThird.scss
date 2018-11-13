@@ -1,0 +1,32 @@
+#cameraThird{
+    .container{
+        position: absolute;
+        top: 40px;
+        bottom: 70px; 
+        left: 0;
+        right: 0;
+        overflow: auto;
+        background: #fff;
+        text-align: center;
+        p{
+            margin-top: 15rem;
+            padding: 0 3rem;
+            line-height: 1.4rem;
+            color: .8rem;
+            color: #999;
+        }
+        input{
+            width: 80%;
+            height: 3rem;
+            border: 1px solid #ccc;
+            line-height: 3rem;
+            text-align: center;
+            margin: 1rem auto;
+            outline: none;
+        }
+        .mint-button{
+            width: 80%;
+            background: #1fb2ff;
+        }
+    }
+}

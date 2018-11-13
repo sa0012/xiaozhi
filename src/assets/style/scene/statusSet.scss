@@ -1,0 +1,32 @@
+.status-set {
+    text-align: center;
+    padding: 0 15px;
+    .status-title {
+        font-size: 16px;
+        font-weight: bold;
+        padding: 48px 0 20px 0;
+    }
+    .details {
+        color: #B5B5B5;
+        font-size: 14px;
+        padding-bottom: 30px;
+    }
+}
+
+.add-btn {
+    width: 98%;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 30px;
+    background: #19B0FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    &.close {
+        background: #D0D0D0;
+    }
+}

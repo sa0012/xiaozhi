@@ -1,0 +1,26 @@
+ .module-entry {
+     padding: 0 15px;
+     padding-top: 20px;
+     .list {
+         width: 100%;
+         font-size: 0;
+         .list-item {
+             width: 50%;
+             display: inline-block;
+             text-align: center;
+             padding-bottom: 30px;
+             position: relative;
+             font-size: 14px;
+             .item-icon {
+                 width: 160px;
+                 height: 100px;
+                 padding-bottom: 15px;
+             }
+             .del-icon {
+                 position: absolute;
+                 top: -15px;
+                 right: 20px;
+             }
+         }
+     }
+ }

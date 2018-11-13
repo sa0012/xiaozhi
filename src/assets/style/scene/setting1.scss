@@ -1,0 +1,107 @@
+.setting1 {
+  padding: 0 15px;
+  .compare {
+    height: 52px;
+    display: flex;
+    align-items: center;
+    .compare-item {
+      flex: 1;
+    }
+    .compare-left {
+      padding-left: 17px;
+    }
+    .compare-right {
+      padding-right: 17px;
+      text-align: right;
+      .compare-input {
+        height: 52px;
+        line-height: 52px;
+        border: none;
+        width: 60px;
+      }
+    }
+    .compare-icon {
+      text-align: center;
+    }
+  }
+}
+
+.add-btn {
+  width: 90%;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  &.border {
+    border: 1px solid #19B0FF;
+    color: #19B0FF;
+    position: relative;
+    .del-icon {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 15px;
+    }
+  }
+  &.yellow {
+    background: #FFA400;
+    margin-top: 20px;
+  }
+  &.set-btn {
+    display: flex;
+    margin-top: 20px;
+  }
+  &.next {
+    background: #19B0FF;
+    margin-top: 60px;
+  }
+}
+
+.left-wrap {
+  flex: 1;
+  &.wrap-left {
+    text-align: left;
+  }
+  &.wrap-right {
+    text-align: right;
+  }
+}
+
+.setting-left,
+.setting-right {
+  height: 50px;
+  line-height: 50px;
+  width: 140px;
+  text-align: center;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.setting-left {
+  background: #FFA400;
+}
+
+.setting-right {
+  background: #19B0FF;
+}
+
+.icon-title {
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 320px) {
+  .setting-left,
+  .setting-right {
+    width: 120px;
+  }
+}

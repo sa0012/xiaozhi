@@ -1,0 +1,25 @@
+@import "../px2rem.scss";
+#addequipment{
+  background: #fff;
+  margin-bottom: 9rem;
+  .mint-header{
+    background: #fff;  
+    color: #000;
+    border-bottom: 1px solid #eee;
+  }
+  .content{
+    .mint-cell{
+      padding: 0 5px !important;
+    }
+    img{
+      width: 26px;
+      height: 26px;
+      margin: 0 0.5rem 0 0;
+    }
+    p{
+      color: #999;
+      padding: 15px;
+      font-size: 16px;
+    }
+  }
+}

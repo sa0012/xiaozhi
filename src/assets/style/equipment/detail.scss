@@ -1,0 +1,27 @@
+#equipmentDetail{
+    .header-right{
+        img {
+          height: 20px;
+          vertical-align: middle;
+        }
+      }
+    .container{
+        position: absolute;
+        top: 40px;
+        bottom: 70px; 
+        left: 0;
+        right: 0;
+        overflow: auto;
+        background: #fff;
+        .oneline{
+            color: #19b0ff;
+        }
+        .outline {
+            color: #f00;
+        }
+        .oneline, .outline {
+            position: absolute;
+            left: 35%;
+        }
+    }
+}

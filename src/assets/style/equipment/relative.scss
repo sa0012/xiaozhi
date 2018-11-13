@@ -1,0 +1,31 @@
+#equipmentRelative{
+    .container{
+        position: absolute;
+        top: 40px;
+        bottom: 70px; 
+        left: 0;
+        right: 0;
+        overflow: auto;
+        background: #fff;
+        text-align: center;
+        .list {
+            .item{
+                margin-top: 2rem;
+                color: #333;
+            }
+            p:nth-child(1) {
+                font-size: 1.6rem;
+            }
+            p{
+                line-height: 2rem;
+                font-size: 1.2rem;
+            }
+            button{
+                width: 80%;
+                font-size: 1rem;
+                background: #19b0ff;
+                color: #fff;
+            }
+        }
+    }
+}

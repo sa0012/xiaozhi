@@ -1,0 +1,43 @@
+@import "../../px2rem.scss";
+#repeaterThird{
+    .container{
+        position: absolute;
+        top: px2Rem(44px);
+        bottom: 70px; 
+        left: 15px;
+        right: 15px;
+        overflow: auto;
+        background: #fff;
+        h1{
+            line-height: 3rem;
+            font-size: 1.2rem;
+            color: #333;
+        }
+        p{
+            line-height: 1.4rem;
+            color: .8rem;
+            color: #999;
+        }
+        .current{
+            margin-top: 4rem;
+            text-align: center;
+            color: #000;
+        }
+        input{
+            display: block;
+            width: 80%;
+            height: 3rem;
+            border: 1px solid #ccc;
+            line-height: 3rem;
+            text-align: center;
+            margin: 1.5rem auto;
+            outline: none;
+        }
+        .mint-button{
+            display: block;
+            width: 80%;
+            margin: 0 auto;
+            background: #1fb2ff;
+        }
+    }
+}

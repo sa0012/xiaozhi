@@ -1,0 +1,60 @@
+#equipmentProperty{
+    .container{
+        position: absolute;
+        top: 40px;
+        bottom: 70px; 
+        left: 0;
+        right: 0;
+        overflow: auto;
+        background: #fff;
+        .dialogWrapper{
+            position: fixed;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background: rgba(255, 255, 255, .1);
+            padding-top: 50%;
+            text-align: center;
+            .dialog{
+                width: 80%;
+                margin: 0 auto;
+                padding: 2rem 1rem;
+                background: #fff;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                input{
+                    width: 80%;
+                    height: 3rem;
+                    border: 1px solid #ccc;
+                    line-height: 3rem;
+                    text-align: center;
+                    margin: 1rem auto;
+                    outline: none;
+                }
+                select{
+                    display: block;
+                    width: 80%;
+                    height: 3rem;
+                    border: 1px solid #ccc;
+                    line-height: 3rem;
+                    text-align: center;
+                    margin: 1rem auto;
+                    padding: 0 1rem;
+                    outline: none;
+                }
+                .btn-group {
+                    display: flex;
+                    width: 90%;
+                    margin: 0 auto;
+                    button{
+                        flex: 1;
+                        margin: 0 5%;
+                    }
+                    button:nth-child(2){
+                        background: #19b0ff;
+                    }
+                }
+            }
+        }
+    }
+}

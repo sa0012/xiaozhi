@@ -1,0 +1,147 @@
+@import "../px2rem.scss";
+#home {
+  width: 100%;
+  background: #fff;
+  .mint-navbar {
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3333;
+    padding-right: 70px;
+    padding-left: 15px;
+    box-sizing: border-box;
+  }
+  .mint-tab-item {
+    font-size: 18px;
+    color: #ADADAD;
+    &.is-selected {
+      font-weight: bold;
+      font-size: 18px;
+      color: #000;
+      border-bottom: none;
+      position: relative;
+      &::before {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background: #FFA607;
+        border-radius: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 0;
+      }
+    }
+  }
+  .mint-tab-item-label {
+    font-size: 18px;
+  }
+  .dotte {
+    width: 25px;
+    height: 12px;
+    position: absolute;
+    right: 22px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .banner {
+    width: 400px;
+    height: 250px;
+    margin: 0 auto;
+    background: #999;
+  }
+  .module-entry {
+    padding: 0 15px;
+    padding-top: 25px;
+    .list {
+      width: 100%;
+      .list-item {
+        width: 33.333%;
+        display: inline-block;
+        text-align: center;
+        padding-bottom: 45px;
+        position: relative;
+        .item-icon {
+          width: 60px;
+          padding-bottom: 15px;
+        }
+        .del-icon {
+          position: absolute;
+          top: -15px;
+          right: 15px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #home {
+    .module-entry {
+      .list {
+        .list-item {
+          .del-icon {
+            right: 8px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.shake {
+  animation: shake 0.32s cubic-bezier(.36, .07, .19, .97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@-webkit-keyframes shake {
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -webkit-transform: translateX(-10px);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    -webkit-transform: translateX(10px);
+  }
+}
+
+@-moz-keyframes shake {
+  0%,
+  100% {
+    -moz-transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    -moz-transform: translateX(-10px);
+  }
+  20%,
+  40%,
+  60%,
+  80% {
+    -moz-transform: translateX(10px);
+  }
+}
+
+.shake {
+  animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}

@@ -1,0 +1,44 @@
+@import "../px2rem.scss";
+#datasharing{
+  background: #fff;
+  .mint-header{
+    background: #fff;  
+    color: #000;
+    border-bottom: 1px solid #eee;
+  }
+  .content{
+    margin-top: 15px;
+    .userHeader{
+      text-align: center;
+      .btnsave{
+        width: 90%;
+        margin: 0 auto;
+      }
+      .inputId{
+        border: 1px solid #eee;
+        margin: 10px auto 20px;
+        width: 82%;
+        height: 45px;
+        line-height: 45px;
+        font-size: 16px;
+        padding: 0 10px;
+        border-radius: 5px;
+      }
+      .mint-button{
+        margin: 1rem auto 20px;
+        font-size: 16px;
+        letter-spacing: 1px;
+      }
+    }
+    .list{
+      .sharTxt{
+        font-size: 17px;
+        padding: 10px 15px 0;
+        margin: 40px 0 30px;
+      }
+      .mint-cell{
+        padding: 0 5px !important;
+      }
+    }
+  }
+}

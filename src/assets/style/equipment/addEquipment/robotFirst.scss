@@ -1,0 +1,38 @@
+#robotFirst{
+    .container{
+        position: absolute;
+        top: 40px;
+        bottom: 70px; 
+        left: 0;
+        right: 0;
+        overflow: auto;
+        background: #fff;
+        text-align: center;
+        h1{
+            margin: 4rem auto 1rem;
+            font-size: 1.5rem;
+            color: #333;
+            img{
+                vertical-align: middle;
+            }
+        }
+        p{
+            padding: 0 3rem;
+            line-height: 1.4rem;
+            color: 1rem;
+            color: #666;
+            span{
+                font-size: 1.4rem;
+            }
+        }
+        .img {
+            display: block;
+            width: 60%;
+            margin: 1rem auto;
+        }
+        .mint-button{
+            width: 80%;
+            background: #1fb2ff;
+        }
+    }
+}

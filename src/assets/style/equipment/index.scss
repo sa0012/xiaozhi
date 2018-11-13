@@ -1,0 +1,39 @@
+@import "../px2rem.scss";
+
+#equipment {
+  .header-right{
+    img {
+      height: 14px;
+      vertical-align: middle;
+    }
+  }
+  .list {
+    position: absolute;
+    top: px2Rem(43px);
+    // bottom: 70px; 
+    left: 0;
+    right: 0;
+    overflow: auto;
+    font-size: 14px;
+    .mint-cell{
+      background: none;
+      padding: 0 5px;
+      .mint-cell:first-child{
+        background: none;
+      }
+      .mint-cell-wrapper {
+        padding: 0;
+      }
+    }
+    .title-bar{
+      font-size: 14px;
+      color: #1fb2ff;
+      img{
+        margin: -4px 6px 0;
+        vertical-align: middle;
+        height: 9px;
+        width: 15px;
+      }
+    }
+  }
+}

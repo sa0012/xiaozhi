@@ -1,0 +1,48 @@
+@import "../px2rem.scss";
+#securityequipment{
+  background: #fff;
+  margin-bottom: 9rem;
+  .header-right{
+    img {
+      height: 20px;
+      vertical-align: middle;
+    }
+  }
+  .content{
+    .mint-cell{
+      padding: 0 5px !important;
+    }
+    a{
+      color: #999;
+      font-size: 1.2rem;
+    }
+    .mint-navbar{
+      margin-bottom: 15px;
+    }
+    .mint-navbar .mint-tab-item.is-selected{
+      color: #000;
+      margin-bottom: 0;
+      border-bottom: 0;
+      position: relative;
+    }
+    .mint-tab-item.is-selected::before{
+      content: '';
+      display: inline-block;
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background: #FFA607;
+      border-radius: 10px;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      bottom: 0;
+    }
+    img{
+      width: 26px;
+      height: 26px;
+      margin: 0 0.5rem 0 0;
+    }
+  }
+}

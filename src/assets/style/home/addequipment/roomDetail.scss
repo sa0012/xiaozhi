@@ -1,0 +1,136 @@
+.roomdetail {
+    // padding-bottom: 80px;
+    .room-name {
+        height: 50px;
+        line-height: 50px;
+        border-bottom: 7px solid #F8F8F8;
+        padding: 0 15px;
+        display: flex;
+        .room-title {
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .room-input {
+            flex: 1;
+            height: 50px;
+            line-height: 50px;
+            border: none;
+            text-align: right;
+        }
+    }
+    h3.room-img {
+        height: 56px;
+        line-height: 56px;
+        font-size: 14px;
+        font-weight: bold;
+        padding-left: 15px;
+        &.mach {
+            border-bottom: 7px solid #F8F8F8;
+        }
+    }
+    .upload-wrap {
+        padding: 0 15px;
+        box-sizing: border-box;
+        text-align: center;
+        .room-upload {
+            background: #F2F2F2;
+            height: 215px;
+            position: relative;
+            .inner {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                .upload-add {
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+    .machine-list {
+        padding: 0 15px;
+        .list-item {
+            height: 50px;
+            line-height: 50px;
+            display: flex;
+            align-items: center;
+            .title-wrap {
+                flex: 1;
+            }
+            .status-wrap {
+                position: relative;
+                .mac-check {
+                    width: 30px;
+                    height: 30px;
+                    position: absolute;
+                    top: 0;
+                    right: -8px;
+                    border: none;
+                    opacity: 0;
+                }
+                .status {
+                    &.online {
+                        color: #4BCD79;
+                    }
+                    &.offline {
+                        color: #FF5D5D;
+                    }
+                }
+            }
+        }
+    }
+    .control-list {
+        padding: 0 15px;
+        .control-item {
+            height: 30px;
+            line-height: 30px;
+            color: #666;
+        }
+    }
+    .shadows {
+        padding: 0 15px;
+        height: 50px;
+        line-height: 50px;
+        display: flex;
+        &.sh-bind {
+            border-bottom: 7px solid #F8F8F8;
+            border-top: 7px solid #F8F8F8;
+            font-size: 14px;
+        }
+        .shadow-status {
+            flex: 1;
+            text-align: right;
+        }
+    }
+    .env-eq {
+        padding: 0 15px;
+        .env-item {
+            height: 50px;
+            line-height: 50px;
+            display: flex;
+            align-items: center;
+            .env-icon,
+            .temp-icon {
+                margin-right: 25px;
+                width: 16px;
+                height: 14px;
+                vertical-align: middle;
+            }
+            .temp-icon {
+                height: 17px;
+            }
+            .env-title {
+                flex: 1;
+            }
+            .env-btn {
+                width: 80px;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                color: #fff;
+                background: #19B0FF;
+                border-radius: 3px;
+            }
+        }
+    }
+}

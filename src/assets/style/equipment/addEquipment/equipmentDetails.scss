@@ -1,0 +1,129 @@
+.contaniner {
+  padding: 0 15px;
+  position: relative;
+  .human-icon {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+  }
+  .image-wrap {
+    padding-top: 20px;
+    padding-bottom: 35px;
+    text-align: center;
+  }
+  .charset-list {
+    .charset-item {
+      display: flex;
+      align-items: center;
+      height: 52px;
+      line-height: 52px;
+      .charset-title,
+      .charset-right {
+        flex: 1;
+      }
+      .charset-right {
+        text-align: right;
+        position: relative;
+        &.is-range {
+          line-height: 0px;
+          flex: 3;
+        }
+      }
+      .charset-name {
+        color: #666;
+        display: inline-block;
+        height: 52px;
+        vertical-align: middle;
+      }
+      img {
+        vertical-align: middle;
+        margin-left: 15px;
+        height: 16px;
+      }
+    }
+  }
+}
+
+.elec {
+  color: #666;
+  font-size: 22px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  &.isCharging {
+    color: greenyellow;
+  }
+}
+
+.control {
+  width: 140px;
+  height: 140px;
+  border: 2px solid #333333;
+  border-radius: 1000px;
+  margin: 0 auto;
+  position: relative;
+  font-size: 0;
+  .ctl-mid {
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    background: #333333;
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+  }
+  .text {
+    display: inline-block;
+    font-size: 16px;
+  }
+  .ctl-top,
+  .ctl-right,
+  .ctl-down,
+  .ctl-left {
+    position: absolute;
+    color: #ccc;
+  }
+  .mid-wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 70px;
+  }
+  .ctl-top,
+  .ctl-down {
+    width: 20px;
+    height: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .ctl-right,
+  .ctl-left {
+    height: 20px;
+    width: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .ctl-top {
+    top: 0;
+  }
+  .ctl-down {
+    bottom: 0;
+  }
+  .ctl-right {
+    right: 0;
+  }
+  .ctl-left {
+    left: 0;
+  }
+}
+
+.switch-wrap {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+}

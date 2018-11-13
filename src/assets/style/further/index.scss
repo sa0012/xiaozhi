@@ -1,0 +1,38 @@
+@import "../px2rem.scss";
+#furterIndex{
+  background: #fff;
+  .mint-header{
+    color: #000;
+    background: #fff;  
+    border-bottom: 1px solid #eee;
+  }
+  a{
+    color: #000;
+  }
+  .content{
+    .mint-cell{
+      padding: 0 5px !important;
+    }
+    .userHeader{
+      text-align: center;
+      img{
+        height: 42px;
+        width: 42px;
+        margin: 20px 0;
+      }
+      p{
+        font-size: 16px;
+        margin: 0 0 30px;        
+      }
+    }
+    .list{
+      .mint-cell{
+        img{
+          width: 26px;
+          height: 26px;
+          margin: 0 5px 0 0;
+        }
+      }
+    }
+  }
+}

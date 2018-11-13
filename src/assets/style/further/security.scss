@@ -1,0 +1,107 @@
+@import "../px2rem.scss";
+#security{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  margin-bottom: 9rem;
+  .header{
+    padding:0 15px;
+    color: #000;
+    overflow: hidden;
+    .left{
+      float: left;
+      .title{
+        padding: 15px 0 6px;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      .status{
+        font-size: 14px;
+        color: rgb(255, 164, 0);
+        padding-bottom: 10px;
+      }
+    }
+    .right{
+      float: right;
+      img{
+        padding: 15px 0 0 6px;
+        width: 28px;
+        height: 28px;
+      }
+    }
+  }
+  .content{
+    padding: 15px;
+    .img{
+      text-align: center;
+      img{
+        max-width: 100%;
+        margin-bottom: 30px;
+      }
+    }
+    .contentBox{
+      font-size: 16px;
+      .p{
+        color: #999;
+      }
+      .pmargin{
+        margin: 15px 0;
+        font-size: 16px;
+        img{
+          height: 30px;
+          width: 30px;
+          vertical-align: middle;
+          margin-right: 5px;
+        }
+      }
+      .footer{
+        text-align: center;
+        .mint-button{
+          margin: 10px 20px 0;
+          font-size: 16px;
+          a{
+            color: #fff;
+          }
+        }
+        .temporary{
+          background: rgb(255, 164, 0);
+          color: #fff
+        }
+      }
+      
+    }
+  }
+  .navbar-left {
+    width: 98px;
+    position: fixed;
+    top: 61px;
+    right: 15px;
+    background: #fff;
+    z-index: 5555;
+    .navbar-item {
+        border: 1px solid #797979;
+        height: 98px;
+        font-size: 16px;
+        text-align: center;
+        font-weight: bold;
+        position: relative;
+        margin-top: -1px;
+        .inner {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 98px;
+            transform: translate(-50%, -50%);
+        }
+        img.item-icon {
+            margin-bottom: 10px;
+            width: 60px !important;
+        }
+    }
+    .better {
+        display: flex;
+        align-items: center;
+    }
+}
+}

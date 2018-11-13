@@ -1,0 +1,33 @@
+@import "../../px2rem.scss";
+#repeaterSecond{
+    .container{
+        position: absolute;
+        top: px2Rem(44px);
+        bottom: 70px; 
+        left: 15px;
+        right: 15px;
+        overflow: auto;
+        background: #fff;
+        h1{
+            line-height: 3rem;
+            font-size: 1.2rem;
+            color: #333;
+        }
+        p{
+            line-height: 1.4rem;
+            color: 1rem;
+            color: #666;
+        }
+        .img {
+            display: block;
+            width: 100%;
+            margin: 1rem auto;
+        }
+        .mint-button{
+            display: block;
+            width: 80%;
+            margin: 2rem auto;
+            background: #1fb2ff;
+        }
+    }
+}

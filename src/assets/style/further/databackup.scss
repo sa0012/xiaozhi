@@ -1,0 +1,28 @@
+@import "../px2rem.scss";
+#databackup{
+  background: #fff;
+  .mint-header{
+    background: #fff;  
+    color: #000;
+    border-bottom: 1px solid #eee;
+  }
+  .content{
+    margin-top: 40px;
+    .list{
+      padding-top: 100px;
+      .mint-button{
+        width: 90%;
+        margin: 0 auto 40px;
+        img{
+          width: 26px;
+          height: 26px;
+          vertical-align: middle;
+        }
+      }
+      .up{
+        background: rgb(255, 144, 0);
+        color: #fff;
+      }
+    }
+  }
+}

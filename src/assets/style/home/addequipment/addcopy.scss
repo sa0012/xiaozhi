@@ -1,0 +1,41 @@
+.equipment {
+    .room-btn {
+        width: 170px;
+        height: 30px;
+        line-height: 30px;
+        border: 1px solid #888888;
+        border-radius: 30px;
+        margin: 16px auto;
+        text-align: center;
+        color: #888888;
+        font-size: 16px;
+        letter-spacing: 3px;
+    }
+    .room-list {
+        margin-top: 28px;
+        padding: 0 20px 0 10px;
+        .list-item {
+            height: 64px;
+            line-height: 64px;
+            display: flex;
+            .item-title,
+            .item-selected {
+                flex: 1;
+            }
+            .item-selected {
+                vertical-align: middle;
+                text-align: right;
+                position: relative;
+                .item-checkbox {
+                    position: absolute;
+                    top: 10px;
+                    right: -10px;
+                    background: #1DAFFF;
+                    width: 35px;
+                    height: 35px;
+                    opacity: 0;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+@import "../px2rem.scss";
+$borderBom:1px solid #eee;
+#networktest{
+  background: #fff;
+  .mint-header{
+    background: #fff;  
+    color: #000;
+    border-bottom: 1px solid #eee;
+  }
+  .content{
+    padding-bottom: 10px; 
+    .list{
+      padding: 10px 0 0;
+      .listBox{
+        font-size: 16px;
+        background: #eee;
+        padding: 10px 15px;
+      }
+      .listcontent{
+        display: flex;
+        div{
+          flex: 1;
+          padding: 16px 15px;
+          color: #999;
+        }
+      }
+      .basicBox{
+        padding: 10px 15px;
+        div{
+          line-height: 26px;
+          color: #999;
+        }
+      }
+      .btnsave{
+        width: 90%;
+        margin: 20px auto 0;
+        font-size: 16px;
+      }
+    }
+  }
+}

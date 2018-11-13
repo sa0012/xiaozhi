@@ -1,0 +1,51 @@
+@import '../px2rem.scss';
+.header-wrap {
+    height: px2Rem(44px);
+    line-height: px2Rem(44px);
+    display: flex;
+    align-items: center;
+    padding: 0 px2Rem(15px);
+    font-size: 14px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    box-sizing: border-box;
+    z-index: 3333;
+    border-bottom-color: #ccc;
+    .header-title {
+        font-size: 18px;
+        text-align: center;
+    }
+    .header-left,
+    .header-right {
+        flex: 1;
+    }
+     .header-title {
+         flex: 2;
+     }
+    .header-left {
+        display: flex;
+        align-items: center;
+        .back {
+            width: 10px;
+            height: 18px;
+            vertical-align: middle;
+        }
+    }
+    .arrow-wrap {
+        width: 30px;
+        height: 44px;
+        line-height: 44px;
+    }
+    .header-right {
+        letter-spacing: 2px;
+        text-align: right;
+        font-size: 14px;
+        font-weight: 400;
+        .next {
+            text-align: right;
+        }
+    }
+}

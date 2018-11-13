@@ -1,0 +1,42 @@
+@import "../../px2rem.scss";
+#repeaterFirst{
+    .container{
+        position: absolute;
+        top: px2Rem(43px);
+        bottom: 70px; 
+        left: 0;
+        right: 0;
+        overflow: auto;
+        background: #fff;
+        text-align: center;
+        .list{
+            display: flex;
+            .item{
+                flex: 1;
+                position: relative;
+                margin-top: 1.5rem;
+                img{
+                    width: 80%;
+                }
+                .name{
+                    position: absolute;
+                    width: 100%;
+                    bottom: 1rem;
+                    p{
+                        text-align: center;
+                        color: #666;
+                    }
+                    .active{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        .mint-button{
+            width: 80%;
+            margin-top: 8rem;
+            margin-bottom: 10px;
+            background: #1fb2ff;
+        }
+    }
+}

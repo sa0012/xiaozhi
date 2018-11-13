@@ -1,0 +1,76 @@
+.switch-day {
+    display: flex;
+    align-items: center;
+    margin-top: 26px;
+    .switch-title,
+    .switch-btn {
+        flex: 1;
+    }
+    .switch-btn {
+        text-align: right;
+        position: relative;
+        margin-right: 25px;
+        img {
+            width: 59px;
+            height: 30px;
+        }
+    }
+    .switch-check {
+        position: absolute;
+        top: -10px;
+        right: -5px;
+        width: 51px;
+        height: 40px;
+        opacity: 0;
+        transition: all 0.5s;
+    }
+    .iconurl {
+        margin-right: 15px;
+    }
+    .delicon {
+        padding-left: 25px;
+    }
+    .action-btn {
+        width: 50px;
+        height: 26px;
+        line-height: 26px;
+        text-align: center;
+        color: #fff;
+        font-size: 14px;
+        background: #19B0FF;
+        margin-right: 40px;
+        border-radius: 3px;
+        letter-spacing: 3px;
+    }
+}
+
+.add {
+    padding: 0 20px 0 18px;
+}
+
+.add-btn {
+    width: 98%;
+    height: 50px;
+    line-height: 50px;
+    margin: 40px auto;
+    margin-bottom: 38px;
+    background: #FFA400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    &.save {
+        color: #fff;
+        background: #19B0FF;
+    }
+    &.temp {
+        border: 1px solid #19B0FF;
+        background: #fff;
+        color: #19B0FF;
+        letter-spacing: 5px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}

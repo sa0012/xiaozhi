@@ -1,0 +1,83 @@
+.add-condition {
+  padding: 0 15px;
+  .add-wrap {
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    .add-btn-left,
+    .add-btn-arrow,
+    .add-btn-right {
+      flex: 1;
+    }
+    .add-btn {
+      width: 100px;
+      height: 45px;
+      line-height: 45px;
+      border-radius: 5px;
+      &.btn-left {
+        background: #FFA400; // padding-left: 20px;
+        box-sizing: border-box;
+        position: relative;
+        color: #fff;
+        .select-icon {
+          position: absolute;
+          top: 50%;
+          right: 20px;
+          transform: translateY(-50%);
+        }
+      }
+      &.btn-right {
+        background: #19B0FF;
+        .add-input {
+          width: 100px;
+          height: 45px;
+          line-height: 45px;
+          text-align: center;
+          border: none;
+          background: #19B0FF;
+          border-radius: 5px;
+          color: #fff;
+        }
+      }
+    }
+    .add-btn-left {
+      position: relative;
+      text-align: left;
+    }
+    .add-btn-right {
+      text-align: right;
+    }
+    .add-btn-arrow {
+      text-align: center;
+    }
+    .select-list,
+    .select-item {
+      border: none;
+      background: #FFA400;
+      width: 100px;
+      padding-left: 20px;
+      appearance: none;
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      color: #fff;
+    }
+    .select-list {
+      border-radius: 5px;
+      height: 45px;
+      line-height: 45px;
+    }
+    .select-item {
+      height: 30px;
+      line-height: 30px;
+      display: inline-block;
+    }
+  }
+}
+
+.icon-title {
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}

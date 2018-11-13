@@ -1,0 +1,20 @@
+@import "../px2rem.scss";
+#aboutus{
+  background: #fff;
+  .mint-header{
+    background: #fff;  
+    color: #000;
+    border-bottom: 1px solid #eee;
+  }
+  .content{
+    padding: 10px 15px;
+    font-size: 16px;
+    p{
+      text-align: center;
+      img{
+        max-width: 100%;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

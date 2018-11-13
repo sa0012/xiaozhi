@@ -1,0 +1,25 @@
+@import "../../px2rem.scss";
+#cameraFirst{
+    .container{
+        position: absolute;
+        top: px2Rem(44px);
+        bottom: 70px; 
+        left: 15px;
+        right: 15px;
+        overflow: auto;
+        background: #fff;
+        text-align: center;
+        p{
+            line-height: 3rem;
+            text-align: left;
+            color: .8rem;
+            color: #333;
+        }
+        div{
+            height: 6rem;
+            border: 1px solid #ccc;
+            margin: 10px 5px;
+            line-height: 6rem;
+        }
+    }
+}

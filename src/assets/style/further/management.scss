@@ -1,0 +1,50 @@
+@import "../px2rem.scss";
+#management{
+  background: #fff;
+  margin-bottom: 3rem;
+  .mint-header{
+    background: #fff;  
+    color: #000;
+    border-bottom: 1px solid #eee;
+  }
+  .content{
+    .mint-cell{
+      padding: 0 5px !important;
+    }
+    .box{
+      text-align: center;
+      position: relative;
+      padding: 0 15px;
+      input{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 9;
+        opacity: 0;
+      } 
+      img{
+        max-width: 100%;
+        max-height: 100%;
+      }
+    }
+    .managementchild{
+      color: #999;
+      line-height: 30px;
+      padding: 0 20px;
+      font-size: 16px;
+    }
+    .mint-cell{
+      img{
+        width: 18px;
+        height: 18px;
+        margin: 0 5px 0 0;
+      }
+    }
+    .btnsave{
+      width: 90%;
+      margin: 20px auto 0;
+    }
+  }
+}

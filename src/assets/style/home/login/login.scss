@@ -1,0 +1,109 @@
+#login {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  .login-wrap {
+    width: 100%;
+    .mobile {
+      width: 85%;
+      background: #F6F6F8;
+      height: 43px;
+      border-radius: 5px;
+      margin: 0 auto;
+      display: flex;
+      .mobile-icon {
+        background: url('../../../assets/images/home/login.png') -5px -100px no-repeat;
+      }
+      .pass-icon {
+        background: url('../../../assets/images/home/login.png') -5px -5px no-repeat;
+      }
+      .verify-icon {
+        background: url('../../../assets/images/home/login.png') -5px -68px no-repeat;
+      }
+      .mobile-icon,
+      .pass-icon,
+      .verify-icon {
+        flex: 0 0 30px;
+        width: 30px;
+        height: 34px;
+        margin-top: 5px;
+        margin-left: 20px;
+        background-size: cover;
+      }
+      .mobile-num {
+        border: none;
+        background: #F6F6F8;
+        flex: 1;
+        padding-left: 20px;
+        box-sizing: border-box;
+        &::-webkit-input-placeholder {
+          color: #CDCDD0;
+        }
+      }
+    }
+    .password {
+      margin-top: 40px;
+    }
+    .verify-code {
+      margin-top: 40px;
+    }
+    .code-btn {
+      flex: 1;
+      line-height: 43px;
+      // padding-right: 20px;
+      color: #FFA90E;
+    }
+    .forget-pass {
+      margin-top: 33px;
+      margin-bottom: 63px;
+      font-size: 14px;
+      text-align: right;
+      margin-right: 45px;
+    }
+    .login-button {
+      background: #1FB2FF;
+      width: 80%;
+      margin: 0 auto;
+      margin-bottom: 35px;
+      height: 45px;
+      line-height: 45px;
+      color: #fff;
+      border-radius: 5px;
+      text-align: center;
+      font-size: 16px;
+      letter-spacing: 3px;
+    }
+    .bottom-msg {
+      color: #AEAFB7;
+      text-align: center;
+      font-size: 16px;
+      .register {
+        color: #FFA90E;
+      }
+    }
+    .protocol {
+      width: 85%;
+      margin: 30px auto;
+      padding-bottom: 10px;
+      display: flex;
+      align-items: center;
+      .pro-checkbox {
+        margin-left: 20px;
+        margin-right: 10px;
+        width: 17px;
+        height: 17px;
+        flex: 0 0 17px;
+      }
+      .protocol-modal {
+        flex: 1;
+        padding-right: 8px;
+        font-weight: bold;
+      }
+      .protocol-modal {
+        color: #FFA90E;
+      }
+    }
+  }
+}
