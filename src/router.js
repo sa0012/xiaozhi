@@ -91,7 +91,7 @@ const addequipment = resolve => require(['@/views/further/addequipment.vue'], re
 
 export default new Router({
     base: '/',
-    mode: 'history',
+    // mode: 'history',
     scrollBehavior (to, from, savedPosition) {
 	    if (savedPosition) {
 		    return savedPosition
