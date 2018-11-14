@@ -7,7 +7,7 @@
       </keep-alive>
       <router-view v-if="!$route.meta.keepAlive"></router-view>
     </div>
-    <bottom-navbar v-if="hostname === 'localhost'"></bottom-navbar>
+    <bottom-navbar></bottom-navbar>
   </div>
 </template>
 
